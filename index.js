@@ -93,4 +93,4 @@ cron.schedule("0 7 * * *", () => {
 console.log("News digest bot started. Will run daily at 11:00 AM Yerevan time.");
 
 // Uncomment the line below to test immediately on startup:
-runDigest().catch(console.error);
+// runDigest().catch(console.error);
